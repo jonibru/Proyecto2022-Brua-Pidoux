@@ -1,0 +1,20 @@
+body {
+    background-color: #FCFFFC;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+}
+
+
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    text-align-last: center;
+    background-color: #54149079;
+}
+
+.insert_name {
+    font-size: 80%;
+    text-align-last: center;
+}
