@@ -1,20 +1,39 @@
 body {
-    background-color: #FCFFFC;
+    background-image: 
+    /* top, transparent red */
+    linear-gradient(
+      rgba(18, 37, 20, 0.761), 
+      rgba(33, 45, 24, 0.694)
+    ),
+    /* your image */
+    url(woods1.png);
+    background-attachment: fixed;
+    background-size: cover;
     box-sizing: border-box;
     margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 120%;
-}
-
+  }
 
 .header {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 80px;
+    padding: -5px;
+    width: 100%;
+    height: 150px;
+    font-size: 120px;
     text-align-last: center;
-    background-color: #54149079;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+
 }
 
 .insert_name {
-    font-size: 80%;
+    height: 80px;
+    margin-top:-30px;
+    /*background-color: rgba(14, 62, 5, 0.464);*/
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+    vertical-align: top;
+    
+}
+
+.menu_text {
+    font-size: 50px;
     text-align-last: center;
+
 }
