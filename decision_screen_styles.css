@@ -1,0 +1,83 @@
+body {
+  background-image: 
+  linear-gradient(
+    rgba(18, 37, 20, 0.761), 
+    rgba(33, 45, 24, 0.694)
+  ),
+  url(fondo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0px;
+  }
+
+.box {
+  margin:auto;
+  position: relative;
+  background-color: #689c62e3;
+  color: whitesmoke;
+  padding: -5px;
+  border-radius: 100px;
+  width: 60%;
+  height: 350px;
+  vertical-align: middle;
+  position: relative;
+
+
+}
+
+.situacion{
+  background-color: #4a6e46bc;
+  border-radius: 30px;
+  margin: auto;
+  width: 70%;
+  font-size: 25px;
+  text-justify: auto;
+  text-align: center;
+  text-align-last: center;
+  text-shadow: -2px 0 rgb(16, 16, 16), 0 2px rgb(16, 16, 16), 2px 0 rgb(16, 16, 16), 0 -2px rgb(16, 16, 16);
+}
+
+.insert_name {
+    height: 80px;
+    margin-top:-30px;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+    vertical-align: top;
+    
+}
+
+.menu_text {
+    font-size: 50px;
+    text-align-last: center;
+
+}
+
+.choice {
+  left: 10%;
+  vertical-align: middle;
+  margin: auto;
+  width: 80%;
+  height: 40%;
+  position: absolute;
+  bottom: 0;
+}
+
+#choice1_btn{
+  float: left;
+}
+
+#choice2_btn{
+  float: right;
+  
+}
+.choice_btn {
+  
+  white-space: initial;
+  cursor: pointer;
+  background-color: rgba(141, 151, 146, 0.48);
+  height: 100px;
+  width: 170px;
+  border: 1px solid #21321f;
+  border-radius: 15px;
+  
+}
