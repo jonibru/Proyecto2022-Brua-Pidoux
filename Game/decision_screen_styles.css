@@ -1,0 +1,66 @@
+body {
+  background-image: 
+  linear-gradient(
+    rgba(18, 37, 20, 0.761), 
+    rgba(33, 45, 24, 0.694)
+  ),
+  url(decision_fondo.png);
+    background-attachment: fixed;
+}
+
+  .box {
+    margin-top:7%;
+    margin-right: 18%;
+    margin-left: 18%;
+    position: absolute;
+    background-color: #689c62e3;
+    color: whitesmoke;
+    border-radius: 100px;
+    width: 60%;
+    height: 65%;
+}
+
+.situacion{
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #4a6e46bc;
+  font-size: 22px;
+  text-align: center;
+  text-shadow: -2px 0 rgb(16, 16, 16), 0 2px rgb(16, 16, 16), 2px 0 rgb(16, 16, 16), 0 -2px rgb(16, 16, 16);
+  border-radius: 22px;
+  width: 70%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+
+.choice {
+  left: 10%;
+  margin: auto;
+  width: 80%;
+  height: 40%;
+  position: absolute;
+  bottom: 0;
+}
+
+#choice1_btn{
+  float: left;
+}
+
+#choice2_btn{
+  float: right;
+}
+.choice_btn {
+  color: whitesmoke;
+  text-shadow: -2px 0 rgb(16, 16, 16), 0 2px rgb(16, 16, 16), 2px 0 rgb(16, 16, 16), 0 -2px rgb(16, 16, 16);
+  white-space: initial;
+  cursor: pointer;
+  background-color: rgba(56, 56, 56, 0.689);
+  height: 100px;
+  width: 170px;
+  border: 1px solid #2d2d2d;
+  border-radius: 15px;
+}
