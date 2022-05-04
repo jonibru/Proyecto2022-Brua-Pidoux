@@ -1,0 +1,24 @@
+body {
+  background-image: url(qwe.png);
+  background-attachment: fixed;
+}
+.perdiste{
+  color: rgb(204, 204, 204);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 19%;
+  margin-left: 12%;
+  margin-right: 10%;
+  font-size: 50px;
+  text-shadow: -2px 0 rgb(16, 16, 16), 0 2px rgb(16, 16, 16), 2px 0 rgb(16, 16, 16), 0 -2px rgb(16, 16, 16);
+  text-align: center;
+}
+
+.guardias{
+  color: rgb(103, 103, 103);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 12%;
+  margin-right: 10%;
+  font-size: 28px;
+  text-shadow: -2px 0 rgb(16, 16, 16), 0 2px rgb(16, 16, 16), 2px 0 rgb(16, 16, 16), 0 -2px rgb(16, 16, 16);
+  text-align: center;
+}
