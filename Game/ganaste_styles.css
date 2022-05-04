@@ -1,0 +1,20 @@
+body {
+  background-image: url(ganar_fondo.png);
+  padding: -10%;
+  background-attachment: fixed;
+}
+.ganaste{
+  color: aliceblue;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 21%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 32px;
+  text-shadow: -2px 0 rgb(16, 16, 16), 0 2px rgb(16, 16, 16), 2px 0 rgb(16, 16, 16), 0 -2px rgb(16, 16, 16);
+  text-align: center;
+  width: 70%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
