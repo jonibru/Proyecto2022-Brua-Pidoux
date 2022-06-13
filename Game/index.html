@@ -2,29 +2,53 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>main page</title>
+    <title>SALVE AL REY</title>
+    <meta content="Brua Jonathan, Pidoux Felipe" name="autor">
+    <meta content="Juego de decisiones" name="descripcion">
+    <link rel="shortcut icon" href="crown.png">
+    <meta content="juego, decisiones, rey" name="keywords">
     <link rel="stylesheet" href="index_styles.css">
+    <canvas></canvas>
 </head>
-<header>
-    <div class="header">
-        <p>Salve al Rey</p>
-    </div>
-    <div class="guia">
-        <p>Este juego consiste en tomar decisiones para lograr salvar a un rey atrapado en un castillo.</p>
-        <p>Elige sabiamente y vencerás.</p>
-    </div>
-</header>
+
 <body>
-    <div class="insert_name">
-        <div class="menu_text">
-            <p>Inserte el nombre de su jugador</p>
-            <input type="text" id="player_name" name="player_name" >
-            <a href="decision_screen.html">
-                <input type="button" id="start_btn" value="START">
-            </a>
+
+    <header>
+        <div class="crown-top">
+            <img src="crown.png" alt="Background crown" id="crown1">
+            <img src="crown.png" alt="Background crown" id="crown2">
         </div>
-    </div>
-    <p>
+        <div class="header">
+            <h1>Salve al Rey</h1>
+        </div>
+    </header>
+
+    <section>
+        <div class="guia">
+            <p>Este juego consiste en tomar decisiones para lograr salvar a un rey atrapado en un castillo.</p>
+            <p>Elige sabiamente y vencerás.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="insert_name">
+            <div class="menu_text">
+                <p>Ingrese el nombre de su jugador</p>
+                <label> <input type="text" id="player_name" name="player_name"> </label>
+                <a href="decision_screen.html">
+                    <label> <input type="button" id="start_btn" value="START"> </label>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <p>Jonathan Brua  -  Felipe Pidoux</p>
+        </div>
+    </footer>
+    <!--
+        <p>
     -
     </p>
     <p>
@@ -36,5 +60,6 @@
     <a href="perdiste.html">
         <p>Pagina Perdiste</p>
     </a>
+-->
 </body>
 </html>

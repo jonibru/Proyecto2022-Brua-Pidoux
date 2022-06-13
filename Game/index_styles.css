@@ -7,9 +7,11 @@ body {
 
 .header {
   margin-top: -8%;
+  margin-bottom: 3%;
+  margin-left: 8%;
   color: whitesmoke;
   height: 150px;
-  font-size: 120px;
+  font-size: 65px;
   text-align: center;
   text-shadow: -3px 0 , 0 3px rgb(16, 16, 16), 3px 0 rgb(16, 16, 16), 0 -3px rgb(16, 16, 16);
 }
@@ -19,7 +21,7 @@ body {
   font-size: 20px;
   margin-left: 30%;
   text-align: center;
-  margin-bottom: 8%;
+  margin-bottom: 2%;
   width: 40%;
   text-shadow: -2px 0 rgb(16, 16, 16), 0 2px rgb(16, 16, 16), 2px 0 rgb(16, 16, 16), 0 -2px rgb(16, 16, 16);
 }
@@ -50,4 +52,24 @@ body {
   width: 60px;
   border: 1px solid #21321f;
   border-radius: 15px;
+}
+
+.footer {
+  font-size: 18px;
+  text-align: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 6%;
+  text-shadow: -1px 0 rgb(159, 159, 159), 0 1px rgb(159, 159, 159), 1px 0 rgb(159, 159, 159), 0 -1px rgb(159, 159, 159);
+}
+
+.crown-top{
+  margin-bottom: 0%;
+}
+#crown1{
+  width: 70px;
+}
+
+#crown2{
+  width: 70px;
+  float: right;
 }
